@@ -1,0 +1,58 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.App ul li{
+list-style: none;
+}
+
+
+.listtt {
+  position: relative;
+display: flex;
+justify-content: space-evenly;
+width: 400px;
+float: right;
+margin-top: 20px;
+margin-right: 150px;
+}
+
+.drplist:hover{
+  color: #00b39b;
+}
+
+
+.App{
+  background-color: lightblue;
+  height: 70px;
+  width: 100%;
+  color: #303030;
+  color: #ababab;
+
+}
+
+
+
+.dropdown{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  display: none;
+  margin-left: -50px;
+  color: #ababab;
+  line-height: 2.5;
+  width: 220px;
+  padding-left: 10px;
+}
+
+.drplist:hover .dropdown {
+display: block;
+background-color: #ffffff;-webkit-box-shadow: 10px -7px 73px -46px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px -7px 73px -46px rgba(0,0,0,0.75);
+  box-shadow: 10px -7px 73px -46px rgba(0,0,0,0.75);
+
+}
